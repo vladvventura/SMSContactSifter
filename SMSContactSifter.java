@@ -29,7 +29,7 @@ public class SMSContactSifter {
      */
     public static void main(String[] args) throws Exception{
         System.out.println(System.getProperty("user.dir"));
-        File file = new File("sms-20170626202840.xml");
+        File file = new File("smsbackup.xml");
         Scanner scan = new Scanner(file);
         
         //3 ways to do this.
